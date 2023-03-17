@@ -1,0 +1,19 @@
+.product .details {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+}
+
+.product .details .name {
+    font-weight: bold;
+}
+
+.product .details .price {
+    font-size: 18px;
+    color: black;
+}
+
+.product .details .units {
+    font-size: 14px;
+}

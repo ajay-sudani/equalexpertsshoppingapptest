@@ -1,0 +1,32 @@
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .menu {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+header .menu .home {
+    font-weight: bold;
+    font-size: 22px;
+    margin-right: 50px;
+}
+
+header .menu .link {
+    margin-right: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+header .search-bar input {
+    border: none;
+    color: white;
+    padding: 10px;
+    border-bottom: 2px solid gray;
+    background-color: transparent;
+    margin-right: 20px;
+}
